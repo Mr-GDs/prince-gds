@@ -3,7 +3,7 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk' 
 import { fileURLToPath } from 'url' 
 
-/*const ownervb = process.env.OWNER_NUMBER || "";
+const ownervb = process.env.OWNER_NUMBER || "";
 
 // ENV format: number,name,number,name
 const ownerlist = ownervb.split(',');
@@ -30,13 +30,13 @@ const defaultOwner = [
     true
 ];
 
-global.owner.push(defaultOwner);*/
+global.owner.push(defaultOwner);
 
 
- global.owner = [
+ /*global.owner = [
   ['923092668108', 'Prince', true],
   ['639129985130']
-] //Numeros de owner 
+] */
 
 global.mods = [''] 
 global.prems = ['923092668108', '639129985130']
@@ -63,21 +63,7 @@ global.botname = process.env.BOT_NAME || "Prince Bot"
 global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
 global.author = 'Prince♥️' 
-global.fg_ig = 'https://instagram.com/fg.error' 
-global.fg_sc = 'https://github.com/FG98F/dylux-bot' 
-global.fg_yt = 'https://youtube.com/fg98f'
-global.fg_pyp = 'https://paypal.me/fg98f'
-global.fg_tt = 'https://tiktok.com/@fg.error'
-global.fg_logo = 'https://i.ibb.co/1zdz2j3/logo.jpg' 
-global.fg_avatar = 'https://raw.githubusercontent.com/fg-error/fg-team/refs/heads/main/discord/avatar.png'
 
-//--- Grupos WA
-global.id_canal = '120363177092661333@newsletter' //-ID de canal de WhatsApp
-global.canal_log = 'https://whatsapp.com/channel/0029Vb5vgQAHgZWYchqbIb0u'
-global.canal_logid = '120363398698937291@newsletter'
-global.fg_canal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.fg_group = "https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr"
-global.fg_gpnsfw = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
 
 //--emojis
 global.rwait = '⌛'

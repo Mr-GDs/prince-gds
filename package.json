@@ -1,5 +1,5 @@
 {
-  "name": "prince-private",
+  "name": "prince-gds",
   "version": "3.0.0",
   "description": "Prince Private WhatsApp Bot - Multi Device",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
 
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/MrPrinceGDs/Princeprivate",
+  "homepage": "https://github.com/Mr-GDs/prince-gds",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrPrinceGDs/Princeprivate.git"
+    "url": "git+https://github.com/Mr-GDs/prince-gds.git"
   },
   "bugs": {
-    "url": "https://github.com/MrPrinceGDs/Princeprivate/issues"
+    "url": "https://github.com/Mr-GDs/prince-gds/issues"
   },
   "directories": {
     "lib": "lib",
@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.0",
-    "@whiskeysockets/baileys": "npm:@itsukichan/baileys",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
     "archiver": "^7.0.1",
     "adm-zip": "^0.5.16",
     "awesome-phonenumber": "^3.4.0",
